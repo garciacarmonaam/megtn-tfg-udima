@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "MEGTN", "MEGTN\MEGTN.njsproj", "{CE3B9C8C-0F5A-4E66-A083-2E1D53A70517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE3B9C8C-0F5A-4E66-A083-2E1D53A70517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3B9C8C-0F5A-4E66-A083-2E1D53A70517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3B9C8C-0F5A-4E66-A083-2E1D53A70517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3B9C8C-0F5A-4E66-A083-2E1D53A70517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D72059C-915E-4489-AB0B-1472E11A1610}
+	EndGlobalSection
+EndGlobal

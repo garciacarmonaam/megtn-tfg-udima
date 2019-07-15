@@ -1,0 +1,27 @@
+<div class="contenedor_formulario">
+  <div id="formularioPistas">
+    <h4> ¿Tienes pistas sobre algún desaparecido? </h4>
+
+    <form id="formulario" method="post" action="/registrarPistas">
+      <!-- ¿A qué desaparecido quiere ayudar? -->
+      <mat-form-field>
+        <mat-label>Escoja una alerta</mat-label>
+        <mat-select name="relacionDesaparecidos" (selectionChange)="asignarAlertaEscogida($event.value)">
+          <mat-option *ngFor="let alerta of registro" [value]="alerta.id">
+            {{alerta.nombre_apellidos}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <!-- Uno de los campos del formulario ha de ser el código que identifica la alerta (aunque se oculte al usuario) -->
+      <input type="hidden" name="alertaElegida" value="{{ alertaElegida }}" />
+
+      <div class="mdl-textfield mdl-js-textfield">
+        <textarea class="mdl-textfield__input" type="text" rows="4" id="sample5" placeholder="Exponga las pistas a aportar..." name="sample5"></textarea>
+      </div>
+
+      <input type="submit" name="enviar" />
+    </form>
+    <br/> <br />
+  </div>
+</div>

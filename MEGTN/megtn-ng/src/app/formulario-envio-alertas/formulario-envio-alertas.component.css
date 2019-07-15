@@ -1,0 +1,23 @@
+a {
+  color: #00B7FF;
+}
+
+.contenedor_formulario {
+  text-align: center;
+}
+
+#formularioPistas {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 50%;
+}
+
+.mdl-textfield {
+  width: 100%;
+}
+
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored:hover {
+  background: white;
+  color: royalblue;
+}

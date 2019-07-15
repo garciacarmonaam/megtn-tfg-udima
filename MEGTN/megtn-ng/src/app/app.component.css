@@ -1,0 +1,12 @@
+#menuOpciones {
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#titulo_menu {
+  background: #0C2B90;
+}
+
+#consultarRegistro:hover, #crearNuevaAlerta:hover, #aportarNuevasPistas:hover {
+  background: #31B7FA;
+}

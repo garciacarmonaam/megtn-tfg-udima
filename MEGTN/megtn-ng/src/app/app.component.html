@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-cyan.min.css">
+
+<div style="text-align:center">
+  <h3>
+    ¡{{ title }}!
+  </h3>
+  <h4>
+    {{ timeZone }}
+  </h4>
+  <div id="menuOpciones">
+    <br />
+    <mat-toolbar color="primary">
+      <mat-toolbar-row id="titulo_menu">
+        <h5>¿Qué desea hacer?</h5>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row id="consultarRegistro">
+        <span routerLink="/consultarRegistro">Consultar registro de alertas</span>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row id="crearNuevaAlerta">
+        <span routerLink="/crearNuevaAlerta">Crear nueva alerta</span>
+      </mat-toolbar-row>
+
+      <mat-toolbar-row id="aportarNuevasPistas">
+        <span routerLink="/aportarNuevasPistas">Aportar nueva pista</span>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
+
+  <router-outlet></router-outlet>
+ </div>  

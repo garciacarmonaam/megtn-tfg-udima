@@ -1,0 +1,38 @@
+  <div class="contenedor_formulario">
+    <div id="formularioPistas">
+      <h4> ¿Te consta algún caso de desaparición? </h4>
+
+      <form id="formulario__" method="post" action="/registrarNuevaAlerta">
+        <!-- ¿A qué desaparecido quiere ayudar? -->
+        <div id="campo_nombre" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input required class="mdl-textfield__input" type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        <div id="campo_apellido1" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input required class="mdl-textfield__input" type="text" name="apellido1" placeholder="Primer apellido" id="apellido1">
+        </div>
+        <div id="campo_apellido2" class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input required class="mdl-textfield__input" type="text" name="apellido2" id="apellido2" placeholder="Segundo apellido">
+        </div>
+        <div id="campo_edad" class="mdl-textfield mdl-js-textfield">
+          <input required class="mdl-textfield__input" type="text" pattern="[0-9]*(\.[0-9]+)?" name="edad" id="edad" placeholder="Edad">
+        </div>
+        <br /> <br />
+        <!--
+  <div id="campo_archivo" style="font-family: Helvetica,Arial,sans-serif; font-size:16px;">
+    <label for="foto_desaparecido">Escoja una foto de perfil: &nbsp;</label>
+    <input required type="file" id="foto_desaparecido" name="foto_desaparecido" accept="image/png, image/jpeg">
+  </div>
+  -->
+        <br />
+        <div id="campo_descripcion" class="mdl-textfield mdl-js-textfield">
+          <textarea required class="mdl-textfield__input" type="text" rows="5" id="descripcion" placeholder="Describa los hechos a alertar..." name="descripcion"></textarea>
+        </div>
+        <div id="campo_lugardesaparicion" class="mdl-textfield mdl-js-textfield">
+          <input required class="mdl-textfield__input" type="text" name="lugar_desaparicion" id="lugardesaparicion" placeholder="Lugar de desaparición">
+        </div>
+        <br /> <br />
+        <input class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" type="submit" name="enviar" />
+        <br /><br /> <br />
+      </form>
+    </div>
+  </div>

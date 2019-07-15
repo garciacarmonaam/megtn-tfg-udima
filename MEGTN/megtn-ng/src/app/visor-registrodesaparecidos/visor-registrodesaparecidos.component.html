@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h4>¿Conoce a alguna de estas personas?</h4>
+  <mat-form-field>
+    <mat-label>Escoja una alerta</mat-label>
+    <mat-select (selectionChange)="mostrarDetallesAlerta($event.value)">
+      <mat-option *ngFor="let alerta of registro" [value]="alerta.id">
+        {{alerta.nombre_apellidos}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <br />
+  <br />
+
+  <div *ngIf="alertaDesaparicion">
+    <app-descripcion-alerta [alerta]="alertaDesaparicion"> </app-descripcion-alerta>
+  </div>
+</div>
