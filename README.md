@@ -1,4 +1,7 @@
 # megtn-tfg-udima
+
+[Léase la memoria en https://drive.google.com/file/d/1IjO4_jJ4cZ47JrYAwomP3cb-x47JSBHY/view?fbclid=IwAR3599tfg2tMNNR25Udi35SL0mLorsG0AWQ9kaLqMQOhqob40oQx83h39Sw]
+
 MEGTN (Mantén la Esperanza Gracias a Todos Nosotros) viene a ser una aplicación
 informática con un énfasis colaborativo y una filosofía solidaria. Se busca agilizar la
 colaboración ciudadana en la búsqueda de personas desaparecidas así como ayudar a los
